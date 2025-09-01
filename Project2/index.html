@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Practice</title>
+    <!-- Bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary fw-bold" href="#">Coding<span class="text-danger">Nest</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://codingnest.tech/">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ourservice">Our Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="programming-background-collage.jpg" class="d-block w-100  height" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">Welcome to CodingNest</h5>
+                    <p class="text-primary">Learn from the Experts at Coding Nest.</p>
+                    <button type="button" class="btn btn-outline-success">Join us</button>
+                    <button type="button" class="btn btn-outline-primary ms-5">Contact us</button>
+                </div>
+            </div>
+            <div class="carousel-item height">
+                <img src="arnold-francisca-f77Bh3inUpE-unsplash.jpg" class="d-block w-100  height" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-success">Welcome to CodingNest</h5>
+                    <p class="text-primary">We provide all coding course with expert knowledge .</p>
+                    <button type="button" class="btn btn-outline-success">Join us</button>
+                    <button type="button" class="btn btn-outline-primary ms-5">Contact us</button>
+                </div>
+            </div>
+            <div class="carousel-item height">
+                <img src="programming-background-collage (2).jpg" class="d-block w-100  height" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-danger">Welcome to CodingNest</h5>
+                    <p class="text-warning">Master Advanced Software Technologies, Foundational Computer Skills, Creative Design, and
+                        Professional Expertise Training Institute.</p>
+                        <button type="button" class="btn btn-outline-success">Join us</button>
+                    <button type="button" class="btn btn-outline-primary ms-5">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- our service -->
+    <section id="ourservice">
+        <h1 class="text-light text-center mt-5">Our Services</h1>
+        <!-- card creation -->
+        <div class="container">
+            <div class="row mb-2 mt-5 ">
+                <div class="col-md-6 ">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static"> <strong
+                                class="d-inline-block mb-2 text-warning">Welcome To CodingNest</strong>
+                            <h3 class="mb-0 text-light">Lets being the coding journey.</h3>
+                            <p class="card-text my-auto text-success">Developer: an organism that turns coffee into
+                                code.</p> <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="programming-background-collage (1).jpg" class="bd-placeholder-img " height="250"
+                                width="250">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static"> <strong
+                                class="d-inline-block mb-2 text-warning">Welcome To CodingNest</strong>
+                            <h3 class="mb-0 text-light">Eat, sleep, code, repeat, deploy.</h3>
+                            <p class="card-text my-auto text-success">Clean code always looks like it was written by
+                                someone who cares.</p> <a href="#"
+                                class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="roman-synkevych-vXInUOv1n84-unsplash.jpg" class="bd-placeholder-img " height="250"
+                                width="250">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-2 mt-5">
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static"> <strong
+                                    class="d-inline-block mb-2 text-warning">Welcome To CodingNest</strong>
+                                <h3 class="mb-0 text-light">Debugging: detective work for developers.</h3>
+                                <p class="card-text my-auto text-success">If you're good at the debugger it means you
+                                    spent a lot of time debugging. I don't want you to be good at the debugger.</p> <a
+                                    href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                    Continue reading
+                                </a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="james-harrison-vpOeXr5wmR4-unsplash.jpg" class="bd-placeholder-img "
+                                    height="250" width="250">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static"> <strong
+                                    class="d-inline-block mb-2 text-warning">Welcome To CodingNest</strong>
+                                <h3 class="mb-0 text-light">Keep calm and code on.</h3>
+                                <p class="card-text my-auto text-success">So much complexity in software comes from
+                                    trying to make one thing do two things.</p> <a href="#"
+                                    class="icon-link gap-1 icon-link-hover stretched-link">
+                                    Continue reading
+                                </a>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="michael-baccin-XopauR-Nagk-unsplash.jpg" class="bd-placeholder-img "
+                                    height="250" width="250">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="contact">
+        <h1 class="text-light text-center my-5">Contact us</h1>
+        <div class="container border border-info text-light mb-4">
+            <form class="p-5">
+                <div class="row g-3">
+                    <div class="col my-2">
+                        <label for="inputEmail4" class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col my-2">
+                        <label for="inputEmail4" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col mt-4">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="email">
+                    </div>
+                    <div class="col mt-4">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="password">
+                    </div>
+                    <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.
+                    </div>
+                </div>
+                <div class="col-12 my-4">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="row g-3">
+                    <div class="col my-2">
+                        <label for="inputCity" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="India">
+                    </div>
+                    <div class="col-md-4 my-2">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Up</option>
+                            <option>Kolkata</option>
+                            <option>Chennai</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 my-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip" placeholder="11....">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check my-2">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 my-2">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="py-5 text-center bg-dark text-light">
+        <p>Built by CodingNest Developer using <a href="https://getbootstrap.com/">Bootstrap</a> Framework</p>
+        <p class="mb-0"> <a href="#">Back to top</a> </p>
+    </footer>
+
+    <!-- Bootstrap js cdn bundle link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
